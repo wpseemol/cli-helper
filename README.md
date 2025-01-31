@@ -32,6 +32,20 @@ This command initiates a system reboot. It's often necessary after installing up
 sudo reboot
 ```
 
+## How to Shut Down Ubuntu Using the Command Line
+
+You can safely shut down your Ubuntu system using the following commands:
+
+### 1️⃣ Immediate Shutdown
+
+To power off the system immediately, run:
+
+```sh
+sudo shutdown -h now
+```
+
+<!-- -------------------------------------------------------------- -->
+
 ## Ubuntu install pkg
 
 These are some of package for my Ubuntu system.
