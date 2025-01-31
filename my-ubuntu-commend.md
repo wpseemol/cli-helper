@@ -22,7 +22,7 @@ These are some of package for my Ubuntu system.
     sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
-````sh
+```sh
     sudo apt install chrome-gnome-shell
 ```
 
@@ -37,5 +37,3 @@ These are some of package for my Ubuntu system.
 ```sh
     sudo snap install code --classic
 ```
-
-````
