@@ -12,7 +12,7 @@ These are some of the basic commands to keep your Ubuntu system up-to-date and h
 
 This command fetches the latest package information from all repositories configured on your system. It updates the local package database, ensuring your system is aware of the latest available packages and their versions.
 
-```bash
+```sh
 sudo apt update
 ```
 
@@ -20,7 +20,7 @@ sudo apt update
 
 This command upgrades all currently installed packages to their newest versions available in the configured repositories. It's important to run `sudo apt update` first to ensure the package list is up-to-date. This command will not remove packages, but it may install new dependencies if required by the newer versions.
 
-```bash
+```sh
 sudo apt upgrade
 ```
 
@@ -28,7 +28,7 @@ sudo apt upgrade
 
 This command initiates a system reboot. It's often necessary after installing updates, especially kernel updates, to ensure the changes take effect. Be sure to save your work before running this command.
 
-```bash
+```sh
 sudo reboot
 ```
 
@@ -36,19 +36,24 @@ sudo reboot
 
 These are some of package for my Ubuntu system.
 
-### Install Google Chrome
+## Installing Google Chrome on Ubuntu
 
-This command installs Google Chrome from the downloaded `.deb` package. Make sure you have downloaded the correct package for your architecture (amd64 in this case) before running this command.
+To install Google Chrome on Ubuntu using the `.deb` package, follow these steps:
 
-```bash
-sudo dpkg -i google-chrome-stable_current_amd64.deb
+1. Download the latest Google Chrome `.deb` package from [Google Chrome's official website](https://www.google.com/chrome/).
+2. Open a terminal and navigate to the directory where the `.deb` file is located.
+3. Run the following command to install it:
+
+```sh
+   sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 ```
 
 ### Install Chrome GNOME Shell Integration
 
 This command installs the Chrome GNOME Shell integration package. This allows for better integration between Google Chrome and the GNOME desktop environment, enabling features like media controls and notifications.
 
-```bash
+```sh
 sudo apt install chrome-gnome-shell
 ```
 
@@ -56,7 +61,7 @@ sudo apt install chrome-gnome-shell
 
 This command installs the GNOME Shell Extension Manager. This tool provides a convenient way to browse, install, update, and manage GNOME Shell extensions, which can add or modify the functionality and appearance of the GNOME desktop environment.
 
-```bash
+```sh
 sudo apt install gnome-shell-extension-manager
 ```
 
@@ -64,7 +69,7 @@ sudo apt install gnome-shell-extension-manager
 
 This command installs Git, the widely-used distributed version control system. Git is essential for collaborating on software projects, tracking changes to files, and managing different versions of code.
 
-```bash
+```sh
 sudo apt install git
 ```
 
@@ -72,6 +77,6 @@ sudo apt install git
 
 This command installs Visual Studio Code using the Snap package manager. The `--classic` option is required because VS Code needs access to system resources beyond the typical Snap sandbox. Snaps provide a convenient way to install and manage applications, often including automatic updates.
 
-```bash
+```sh
 sudo snap install code --classic
 ```
