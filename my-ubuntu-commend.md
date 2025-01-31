@@ -25,9 +25,10 @@ These are some of package for my Ubuntu system.
 ````sh
     sudo apt install chrome-gnome-shell
 ```
+
 ```sh
     suod apt install gnome-shell-extension-manager
-````
+```
 
 ```sh
     sudo apt install git
@@ -36,3 +37,5 @@ These are some of package for my Ubuntu system.
 ```sh
     sudo snap install code --classic
 ```
+
+````
