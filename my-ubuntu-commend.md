@@ -19,6 +19,10 @@ These are some of the basic commands to keep your Ubuntu system up-to-date and h
 ```
 
 ```sh
+    vim filename
+```
+
+```sh
     rm -r filename
 ```
 
@@ -52,4 +56,12 @@ These are some of package for my Ubuntu system.
 
 ```sh
     sudo apt install vim
+```
+
+```sh
+    sudo snap install node --classic
+```
+
+```sh
+    sudo snap install zoom-client
 ```
