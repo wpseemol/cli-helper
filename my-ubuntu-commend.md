@@ -14,6 +14,14 @@ These are some of the basic commands to keep your Ubuntu system up-to-date and h
     sudo shutdown -h now
 ```
 
+```sh
+    rm filename
+```
+
+```sh
+    rm -r filename
+```
+
 ## Ubuntu install pkg
 
 These are some of package for my Ubuntu system.
@@ -40,4 +48,8 @@ These are some of package for my Ubuntu system.
 
 ```sh
     sudo snap install telegram-desktop
+```
+
+```sh
+    sudo apt install vim
 ```
