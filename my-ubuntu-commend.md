@@ -26,6 +26,18 @@ These are some of the basic commands to keep your Ubuntu system up-to-date and h
     rm -r filename
 ```
 
+```sh
+    sudo service mysql status
+```
+
+```sh
+    sudo systemctl restart mysql
+```
+
+```sh
+    sudo mysql_secure_installation
+```
+
 ## Ubuntu install pkg
 
 These are some of package for my Ubuntu system.
@@ -68,4 +80,24 @@ These are some of package for my Ubuntu system.
 
 ```sh
     sudo snap install postman
+```
+
+```sh
+    sudo apt install apache2
+```
+
+```sh
+    sudo apt install mysql-server
+```
+
+```sh
+    sudo apt install php-mysqli
+```
+
+```sh
+    sudo apt install php8.3-mysql
+```
+
+```sh
+    sudo apt-get install mysql-server mysql-client
 ```
