@@ -37,3 +37,7 @@ These are some of package for my Ubuntu system.
 ```sh
     sudo snap install code --classic
 ```
+
+```sh
+    sudo snap install telegram-desktop
+```
