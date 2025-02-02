@@ -38,6 +38,10 @@ These are some of the basic commands to keep your Ubuntu system up-to-date and h
     sudo mysql_secure_installation
 ```
 
+```sh
+    systemctl --user start docker-desktop
+```
+
 ## Ubuntu install pkg
 
 These are some of package for my Ubuntu system.
@@ -100,4 +104,8 @@ These are some of package for my Ubuntu system.
 
 ```sh
     sudo apt-get install mysql-server mysql-client
+```
+
+```sh
+    sudo apt install gnome-terminal
 ```
