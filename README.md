@@ -56,6 +56,19 @@ sudo shutdown -h now
    top
 ```
 
+### The `df -h` comment in Linux (including Ubuntu) display disk space usage in a human-readable formate
+
+-   **Filesystem** - The name of the disk or partition.
+-   **Size** - Total size of the filesystem.
+-   **Used** - Amount of space use.
+-   **Avail** - Free space available.
+-   **Use%** - Percentage of space used.
+-   **Mounted on** - The directory where the filesystem is mounted.
+
+```sh
+   df -h
+```
+
 <!-- -------------------------------------------------------------- -->
 
 ## Ubuntu install pkg
