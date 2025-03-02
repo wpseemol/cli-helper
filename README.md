@@ -4,7 +4,7 @@ This repository contains a list of essential **Ubuntu commands** and commonly us
 
 ---
 
-## Ubuntu Commands
+## 1️⃣ Ubuntu Commands
 
 These are some of the basic commands to keep your Ubuntu system up-to-date and healthy.
 
@@ -77,7 +77,7 @@ sudo shutdown -h now
 
 <!-- -------------------------------------------------------------- -->
 
-## Ubuntu install pkg
+## 2️⃣ Ubuntu install pkg
 
 These are some of package for my Ubuntu system.
 
