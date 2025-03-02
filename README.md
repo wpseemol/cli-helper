@@ -69,6 +69,12 @@ sudo shutdown -h now
    df -h
 ```
 
+### The `free -h` command in Linux (including Ubuntu) displays memory usage is a human-readable formate(using MB,GB instead of bytes).
+
+```sh
+   free -h
+```
+
 <!-- -------------------------------------------------------------- -->
 
 ## Ubuntu install pkg
