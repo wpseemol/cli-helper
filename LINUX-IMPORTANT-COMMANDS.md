@@ -65,3 +65,9 @@ or
 ```sh
     touch new_file_name.txt
 ```
+
+-   Clear terminal use commend.
+
+```sh
+    clear
+```
