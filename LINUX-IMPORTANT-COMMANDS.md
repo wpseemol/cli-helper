@@ -110,3 +110,9 @@ or
 ```sh
     echo "some text" > file_name.txt
 ```
+
+### Word Count on linux.
+
+```sh
+    wc file_name.tsx
+```
