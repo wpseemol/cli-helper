@@ -122,13 +122,13 @@ or
 -   heard link
 
 ```sh
-    ln hardlink-file file/path
+    ln file/path hard_link_file_name
 ```
 
 -   Soft link any folder or file.
 
 ```sh
-    ln -s file/path softlink-file
+    ln -s file/path soft_link_file_name
 ```
 
 #### 📌 The `ls -ltr` command in Linux is used to list file and directories in a detailed, time-sorted manner.
@@ -140,4 +140,16 @@ or
 
 ```sh
     ls -ltr
+```
+
+#### 📌 The`uname` command is used to display information such as the kernel name, version, and architecture.
+
+```sh
+    uname
+```
+
+#### 📌 Linux system was been running since the last reboot.
+
+```sh
+    uptime
 ```
