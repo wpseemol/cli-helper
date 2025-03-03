@@ -75,6 +75,12 @@ sudo shutdown -h now
    free -h
 ```
 
+### `date` command in linux (including Ubuntu) show current date and time.
+
+```sh
+   date
+```
+
 <!-- -------------------------------------------------------------- -->
 
 ## 2️⃣ Ubuntu install pkg
@@ -99,7 +105,7 @@ To install Google Chrome on Ubuntu using the `.deb` package, follow these steps:
 This command installs the Chrome GNOME Shell integration package. This allows for better integration between Google Chrome and the GNOME desktop environment, enabling features like media controls and notifications.
 
 ```sh
-sudo apt install chrome-gnome-shell
+   sudo apt install chrome-gnome-shell
 ```
 
 ### Install GNOME Shell Extension Manager
@@ -107,7 +113,7 @@ sudo apt install chrome-gnome-shell
 This command installs the GNOME Shell Extension Manager. This tool provides a convenient way to browse, install, update, and manage GNOME Shell extensions, which can add or modify the functionality and appearance of the GNOME desktop environment.
 
 ```sh
-sudo apt install gnome-shell-extension-manager
+   sudo apt install gnome-shell-extension-manager
 ```
 
 ### Install Git
@@ -115,7 +121,7 @@ sudo apt install gnome-shell-extension-manager
 This command installs Git, the widely-used distributed version control system. Git is essential for collaborating on software projects, tracking changes to files, and managing different versions of code.
 
 ```sh
-sudo apt install git
+   sudo apt install git
 ```
 
 ### Install Visual Studio Code (VS Code) via Snap
@@ -123,5 +129,5 @@ sudo apt install git
 This command installs Visual Studio Code using the Snap package manager. The `--classic` option is required because VS Code needs access to system resources beyond the typical Snap sandbox. Snaps provide a convenient way to install and manage applications, often including automatic updates.
 
 ```sh
-sudo snap install code --classic
+   sudo snap install code --classic
 ```
