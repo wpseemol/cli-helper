@@ -47,3 +47,21 @@ or
 ```sh
     mkdir
 ```
+
+-   About folder on linux.
+
+```sh
+    ls -l
+```
+
+-   Present Working Directory
+
+```sh
+    pwd
+```
+
+-   Create new file use commend.
+
+```sh
+    touch new_file_name.txt
+```
