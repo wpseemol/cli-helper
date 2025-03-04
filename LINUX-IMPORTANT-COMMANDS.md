@@ -195,3 +195,17 @@ or
 ```sh
     sudo passwd user_name
 ```
+
+#### The `uname` command is used to display system information.
+
+```sh
+    uname [option]
+```
+
+-   -a → Display all system information.
+-   -s → Show the kernel name.
+-   -r → Show the kernel release.
+-   -v → Display the kernel version.
+-   -m → Shows the system architecture.
+-   -n → Displays the system's hostname.
+-   -o → Shows the operating system name.
