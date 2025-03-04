@@ -153,3 +153,45 @@ or
 ```sh
     uptime
 ```
+
+#### 📌 `who` and `whoami` commands in linux.
+
+-   The `who` command show information about users currently logged int the systems.
+
+```sh
+    who
+```
+
+-   the `whoami` command prints current user executing command.
+
+```sh
+    whoami
+```
+
+#### 📌`which` command is used to locate the executable path of a command or program in the system.
+
+```sh
+    which command_name
+```
+
+#### 📌 The `id` command is used to display user and group information for the current user or specified user.
+
+```sh
+    id
+```
+
+-   `uid=100(user1)` → user id and username.
+-   `gid=1000(user1)` → group id and primary group name.
+-   `groups=1000(user1),27(sudo)` → Lists all groups the user belongs to including `sudo` (if applicable)
+
+#### The `useradd` command in linux is used to create a new user account.It modifies files, such as `/etc/passwd`, `/etc/shadow`, and `/etc/group`, to add the new user.
+
+```sh
+    sudo useradd -m user_name
+```
+
+-   Set a password for the user(after creation)
+
+```sh
+    sudo passwd user_name
+```
